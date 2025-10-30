@@ -1,27 +1,23 @@
 {
   "authors": [
-    "masters3d"
+    "CRivasGomez"
   ],
   "contributors": [
-    "DFXLuna",
-    "iHiD",
-    "kytrinyx",
-    "lukaszklis",
-    "porkostomus",
+    "masters3d",
     "SleeplessByte"
   ],
   "files": {
     "solution": [
-      "hello-world.ts"
+      "two-fer.ts"
     ],
     "test": [
-      "hello-world.test.ts"
+      "two-fer.test.ts"
     ],
     "example": [
       ".meta/proof.ci.ts"
     ]
   },
-  "blurb": "Exercism's classic introductory exercise. Just say \"Hello, World!\".",
+  "blurb": "Create a sentence of the form \"One for X, one for me.\".",
   "custom": {
     "version.tests.compatibility": "jest-29",
     "flag.tests.task-per-describe": false,
@@ -30,6 +26,5 @@
     "flag.tests.jest": true,
     "flag.tests.tstyche": false
   },
-  "source": "This is an exercise to introduce users to using Exercism",
-  "source_url": "https://en.wikipedia.org/wiki/%22Hello,_world!%22_program"
+  "source_url": "https://github.com/exercism/problem-specifications/issues/757"
 }
